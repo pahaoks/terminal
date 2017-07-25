@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Comphy">
+</Property><Property Name="Solution File" Value="D:\project\termimal\Comphy1000\Comphy.sln">
+</Property><Property Name="Date" Value="6 августа 2009 г.">
+</Property><Property Name="Time" Value="10:04">
+</Property></Properties><Event ErrorLevel="0" Project="Comphy" Source="Comphy\Comphy.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\Comphy.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Comphy.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Comphy.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\f_goods.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\f_goods.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\f_in.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\f_in.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\f_main.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\f_main.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\f_pcgoods.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\f_pcgoods.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\f_skgoods.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\f_skgoods.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\Properties\Resources.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="Comphy" Source="Comphy\Properties\Resources.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Comphy" Source="Comphy\Comphy.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

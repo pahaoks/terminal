@@ -1,0 +1,165 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0380C056-D58C-4DD1-A1D9-ABBEB3BB7B4F/f:Program.cs" caret="423" fromTop="18" />
+      <File id="5D4DD093-0264-419E-AFFE-DAB4D7A6108D/f:f_main.cs" caret="2657" fromTop="29" />
+      <File id="5D4DD093-0264-419E-AFFE-DAB4D7A6108D/f:f_in.cs" caret="2219" fromTop="9" />
+      <File id="5D4DD093-0264-419E-AFFE-DAB4D7A6108D/f:f_goods.Designer.cs" caret="3327" fromTop="10" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Scanner.cs" caret="1699" fromTop="9" />
+      <File id="5D4DD093-0264-419E-AFFE-DAB4D7A6108D/f:f_goods.cs" caret="2544" fromTop="8" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_goods.Designer.cs" caret="13636" fromTop="33" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_goods.cs" caret="0" fromTop="0" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_pcgoods.cs" caret="0" fromTop="0" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_skgoods.cs" caret="1095" fromTop="25" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.Designer.cs" caret="9682" fromTop="7" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_main.cs" caret="723" fromTop="12" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="3082" fromTop="89" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:Program.cs" caret="515" fromTop="23" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_in.cs" caret="5327" fromTop="21" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="2737" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="40564" fromTop="29" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="38188" fromTop="15" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="40207" fromTop="16" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="40404" fromTop="21" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="38921" fromTop="31" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="38334" fromTop="16" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="37479" fromTop="13" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="37013" fromTop="20" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="36793" fromTop="20" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="36911" fromTop="8" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="36504" fromTop="14" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="37770" fromTop="16" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="1547" fromTop="20" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="4175" fromTop="21" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="4515" fromTop="21" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="2286" fromTop="12" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="5216" fromTop="9" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="4173" fromTop="13" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="37479" fromTop="30" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="5909" fromTop="16" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="2661" fromTop="16" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="37397" fromTop="23" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="39314" fromTop="31" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="39428" fromTop="35" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="739" fromTop="28" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="34612" fromTop="16" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_out_pack.cs" caret="4006" fromTop="32" />
+      <File id="36F6FC67-7A92-4EFD-9567-484603536FBB/f:f_main.cs" caret="979" fromTop="20" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="2955" fromTop="20" />
+      <File id="24BD315F-283F-4746-BE98-0B18A8BA10C9/f:Task.cs" caret="2093" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@Bacodelib.TaskKind">
+      <Item value="OutPack" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="4" />
+      <Item value="class" priority="1" />
+      <Item value="Task`0" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="TaskKind`0" priority="2" />
+      <Item value="forma" priority="0" />
+      <Item value="new" priority="4" />
+      <Item value="break" priority="1" />
+      <Item value="private" priority="4" />
+      <Item value="void" priority="1" />
+      <Item value="var" priority="4" />
+      <Item value="PackList`0" priority="0" />
+      <Item value="int" priority="9" />
+      <Item value="string" priority="3" />
+      <Item value="foreach" priority="2" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="if" priority="5" />
+      <Item value="row" priority="6" />
+      <Item value="Int32`0" priority="1" />
+      <Item value="base" priority="1" />
+      <Item value="TaskName" priority="0" />
+      <Item value="Convert`0" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="i" priority="1" />
+      <Item value="count" priority="0" />
+      <Item value="Array`0" priority="0" />
+      <Item value="List" priority="1" />
+      <Item value="rr" priority="0" />
+      <Item value="else" priority="2" />
+      <Item value="Math`0" priority="0" />
+      <Item value="pack" priority="2" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="goodCode" priority="0" />
+      <Item value="result" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="table" priority="0" />
+      <Item value="editmode" priority="0" />
+      <Item value="v_gridrow" priority="0" />
+      <Item value="label1" priority="1" />
+      <Item value="CurrentPack" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="GetEnumerator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="5" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Max`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Bacodelib.OutputPackTask">
+      <Item value="CurrentPack" priority="1" />
+      <Item value="vGridRow" priority="0" />
+      <Item value="IncCurrentPack`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="ItemArray" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Bacodelib.Task">
+      <Item value="FindBarCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
