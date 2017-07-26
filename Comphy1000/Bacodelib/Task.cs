@@ -1077,6 +1077,10 @@ namespace Bacodelib
 
         private void IndexingRow(Dictionary<string, DataRow> dict, DataRow dr)
         {
+            if (!dict.ContainsKey(dr["good_code"].ToString()))
+            {
+                dict.Add(dr["good_code"].ToString(), dr);
+            }
             if (!dict.ContainsKey(dr["code"].ToString()))
             {
                 dict.Add(dr["code"].ToString(), dr);
@@ -1164,7 +1168,7 @@ namespace Bacodelib
                 if (count > 0)
                 {
                     table.Rows.Add(taskname, "", v_name, v_code, "", "", "", count.ToString());
-                    IndexingRow(tableIndex, table.Rows[table.Rows.Count - 1]);
+                    //IndexingRow(tableIndex, table.Rows[table.Rows.Count - 1]);
                     v_gridrow = table.Rows.Count - 1;
                 }
             }

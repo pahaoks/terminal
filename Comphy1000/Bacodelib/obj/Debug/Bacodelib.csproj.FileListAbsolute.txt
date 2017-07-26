@@ -14,3 +14,8 @@ C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Bacodelib\bin\Debug\Sy
 C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Bacodelib\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Bacodelib\obj\Debug\Bacodelib.dll
 C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Bacodelib\obj\Debug\Bacodelib.pdb
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Bacodelib\bin\Debug\Bacodelib.dll
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Bacodelib\bin\Debug\Bacodelib.pdb
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Bacodelib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Bacodelib\obj\Debug\Bacodelib.dll
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Bacodelib\obj\Debug\Bacodelib.pdb

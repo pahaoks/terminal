@@ -22,3 +22,15 @@ C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Co
 C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.csproj.GenerateResource.Cache
 C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.exe
 C:\Users\LutsishinPA\Desktop\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.pdb
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Comfy3001.exe
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Comfy3001.pdb
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Bacodelib.dll
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Comfy.exe
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Symbol.Audio.dll
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Comfy.pdb
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\bin\Debug\Bacodelib.pdb
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.Properties.Resources.resources
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.csproj.GenerateResource.Cache
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.exe
+C:\Users\LutsishinPA\terminal\terminal\Comphy1000\Comfy3001\obj\Debug\Comfy3001.pdb
