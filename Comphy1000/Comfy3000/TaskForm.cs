@@ -68,7 +68,6 @@ namespace Comfy3000
         }
         protected void OnLowBattery(int percent)
         {
-            MessageBox.Show("Заряд батереи " + percent.ToString() + "%");
             if (!lastSaveError) // не сохранять при низком питании если УЖЕ была ошибка сохранения
             {
                 if (task.NeedSave)
