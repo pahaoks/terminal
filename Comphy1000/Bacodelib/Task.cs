@@ -414,6 +414,7 @@ namespace Bacodelib
             return f.Exists;
         }
 
+        /*
         protected bool SaveDataView(DataView dataView, string sufix)
         {
             if (!Task.IsCartAvaliable())
@@ -440,6 +441,53 @@ namespace Bacodelib
                     writer.WriteLine(output);
                     //throw new Exception("my exception");
                     OnWaitEvent(new WaitEventArgs("Сохранение\n" + (++i).ToString()));
+                }
+                writer.Close();
+                needSave = false;
+                return true;
+            }
+            catch (Exception err)
+            {
+                OnWaitEvent(new WaitEventArgs(err));
+                return false;
+            }
+        }
+         */
+        protected bool SaveDataView(DataView dataView, string sufix)
+        {
+            if (!Task.IsCartAvaliable())
+            {
+                OnWaitEvent(new WaitEventArgs(new Exception("Нет карты памяти или она неотформатирована.")));
+                return false;
+            }
+            StringBuilder sb = new StringBuilder();
+            StringBuilder lineBuilder;
+            FileInfo f = new FileInfo(TaskPath + "\\" + KindNames.TaskPrefix(kind) + taskname + sufix + ".csv");
+            StreamWriter writer = f.CreateText();
+            try
+            {
+                int i = 0;
+                foreach (DataRowView view in dataView)
+                {
+                    lineBuilder = new StringBuilder();
+                    for (int j = 0; j < view.Row.Table.Columns.Count; j++)
+                    {
+                        if (j != 0) lineBuilder.Append(";");
+                        lineBuilder.Append(view[j].ToString());
+                    }
+                    sb.Append(lineBuilder.ToString());
+                    sb.Append("\r\n");
+                    OnWaitEvent(new WaitEventArgs("Сохранение\n" + (++i).ToString()));
+                    if (i > 500)
+                    {
+                        writer.Write(sb.ToString());
+                        sb = new StringBuilder();
+                    }
+                }
+                if (i > 0)
+                {
+                    writer.Write(sb.ToString());
+                    sb = null;
                 }
                 writer.Close();
                 needSave = false;

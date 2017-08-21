@@ -43,7 +43,7 @@ namespace Bacodelib
         public event EventHandler<PowerEventArgs> OnPowerEvent;
         private PowerStatus st;
         private bool IsGo = false;
-        Byte BoundaryPercent = 5;
+        Byte BoundaryPercent = 10;
 
         [DllImport("coredll.dll", EntryPoint = "GetSystemPowerStatusEx2", SetLastError = true)]
         private extern static Int32 GetSystemPowerStatus(ref PowerStatus powerStatus,
