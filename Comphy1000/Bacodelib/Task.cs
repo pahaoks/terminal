@@ -477,11 +477,13 @@ namespace Bacodelib
                     }
                     sb.Append(lineBuilder.ToString());
                     sb.Append("\r\n");
-                    OnWaitEvent(new WaitEventArgs("Сохранение\n" + (++i).ToString()));
+                    i++;
                     if (i > 500)
                     {
+                        OnWaitEvent(new WaitEventArgs("Сохранение\n" + (i).ToString()));
                         writer.Write(sb.ToString());
                         sb = new StringBuilder();
+                        i = 0;
                     }
                 }
                 if (i > 0)
@@ -586,12 +588,14 @@ namespace Bacodelib
         protected int ReadFile(DataTable table, FileInfo fi)
         {
             int i = 0;
+            //table.Clear();
             //string[] arr;
             if (File.Exists(fi.FullName))
             {
                 string input;
                 try
                 {
+                    OnWaitEvent(new WaitEventArgs("Загрузка...\n"));
                     StreamReader sr = fi.OpenText();
                     try
                     {
@@ -600,7 +604,7 @@ namespace Bacodelib
                             //arr = input.Split(';');
                             string[] arr = input.Split(';');
                             table.Rows.Add(arr);
-                            OnWaitEvent(new WaitEventArgs("Загрузка\n" + (i++).ToString()));
+                            i++;
                         }
                     }
                     finally
@@ -1223,6 +1227,18 @@ namespace Bacodelib
             needSave = true;
         }
 
+        public void Dispose()
+        {
+            if (addTableIndex != null)
+                addTableIndex.Clear();
+            if (tableIndex != null) 
+                tableIndex.Clear();
+            if (table != null)
+                table.Clear();
+            if (addtable != null) 
+                addtable.Clear();
+            GC.Collect();
+        }
     }
     public class GrabTask : Task
     {

@@ -269,7 +269,6 @@ namespace Comfy1000
                 panel1.Location = new Point(360, 35);
                 DialogShowed = false;
                 tb_count.Text = "0";
-                
             }
             else if (((e.KeyCode < Keys.D0) || (e.KeyCode > Keys.D9)) && (e.KeyCode != Keys.Back))
             {

@@ -81,7 +81,7 @@ namespace Comfy3000
             dataGrid1.Focus();
             Scanner.Instance.Enable();
 
-            notConfirmation = false;
+            notConfirmation = true;
             autosavecounter = 0;
         }
 
@@ -95,7 +95,11 @@ namespace Comfy3000
                     //Save();
 
                     if (Save())
+                    {
+                        if (task.Kind == TaskKind.Recalc)
+                            ((RecalcTask)task).Dispose();
                         this.Close();
+                    }
                     else
                     {
                         dataGrid1.Focus();
