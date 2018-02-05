@@ -51,14 +51,14 @@ namespace Comfy3000
             // descLabel
             // 
             this.descLabel.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular);
-            this.descLabel.Location = new System.Drawing.Point(44, 2);
+            this.descLabel.Location = new System.Drawing.Point(21, 2);
             this.descLabel.Name = "descLabel";
             this.descLabel.Size = new System.Drawing.Size(225, 26);
             this.descLabel.Text = "Поиск номенклатуры";
             // 
             // codeLabel
             // 
-            this.codeLabel.Location = new System.Drawing.Point(21, 26);
+            this.codeLabel.Location = new System.Drawing.Point(4, 26);
             this.codeLabel.Name = "codeLabel";
             this.codeLabel.Size = new System.Drawing.Size(264, 20);
             this.codeLabel.Text = "Введите код товара, ШК или название";
@@ -66,15 +66,15 @@ namespace Comfy3000
             // codeTextBox
             // 
             this.codeTextBox.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular);
-            this.codeTextBox.Location = new System.Drawing.Point(27, 42);
+            this.codeTextBox.Location = new System.Drawing.Point(8, 42);
             this.codeTextBox.Name = "codeTextBox";
-            this.codeTextBox.Size = new System.Drawing.Size(251, 29);
+            this.codeTextBox.Size = new System.Drawing.Size(221, 29);
             this.codeTextBox.TabIndex = 3;
             this.codeTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.codeTextBox_KeyDown);
             // 
             // findButton
             // 
-            this.findButton.Location = new System.Drawing.Point(32, 81);
+            this.findButton.Location = new System.Drawing.Point(14, 81);
             this.findButton.Name = "findButton";
             this.findButton.Size = new System.Drawing.Size(99, 42);
             this.findButton.TabIndex = 5;
@@ -83,7 +83,7 @@ namespace Comfy3000
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(104, 272);
+            this.cancelButton.Location = new System.Drawing.Point(72, 275);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(99, 32);
             this.cancelButton.TabIndex = 12;
@@ -97,7 +97,7 @@ namespace Comfy3000
             this.dataGrid1.Location = new System.Drawing.Point(3, 135);
             this.dataGrid1.Name = "dataGrid1";
             this.dataGrid1.RowHeadersVisible = false;
-            this.dataGrid1.Size = new System.Drawing.Size(314, 130);
+            this.dataGrid1.Size = new System.Drawing.Size(232, 130);
             this.dataGrid1.TabIndex = 20;
             this.dataGrid1.TableStyles.Add(this.dataGridTableStyle1);
             this.dataGrid1.CurrentCellChanged += new System.EventHandler(this.dataGrid1_CurrentCellChanged);
@@ -144,7 +144,7 @@ namespace Comfy3000
             // editButton
             // 
             this.editButton.Enabled = false;
-            this.editButton.Location = new System.Drawing.Point(172, 81);
+            this.editButton.Location = new System.Drawing.Point(136, 81);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(99, 42);
             this.editButton.TabIndex = 21;
@@ -158,7 +158,7 @@ namespace Comfy3000
             this.panel1.Controls.Add(this.panelCountTextBox);
             this.panel1.Controls.Add(this.panelButton);
             this.panel1.Controls.Add(this.descPanelLabel);
-            this.panel1.Location = new System.Drawing.Point(54, 117);
+            this.panel1.Location = new System.Drawing.Point(17, 117);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(212, 100);
             this.panel1.Visible = false;
@@ -202,7 +202,7 @@ namespace Comfy3000
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(320, 320);
+            this.ClientSize = new System.Drawing.Size(240, 320);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.editButton);

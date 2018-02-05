@@ -64,7 +64,7 @@ namespace Comfy3000
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(320, 32);
+            this.label1.Size = new System.Drawing.Size(240, 32);
             this.label1.Text = "Список товаров:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -75,7 +75,7 @@ namespace Comfy3000
             this.dataGrid1.Location = new System.Drawing.Point(3, 38);
             this.dataGrid1.Name = "dataGrid1";
             this.dataGrid1.RowHeadersVisible = false;
-            this.dataGrid1.Size = new System.Drawing.Size(317, 257);
+            this.dataGrid1.Size = new System.Drawing.Size(240, 257);
             this.dataGrid1.TabIndex = 8;
             this.dataGrid1.TableStyles.Add(this.dataGridTableStyle1);
             this.dataGrid1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dataGrid1_KeyUp);
@@ -94,7 +94,7 @@ namespace Comfy3000
             this.dataGridTextBoxColumn1.FormatInfo = null;
             this.dataGridTextBoxColumn1.HeaderText = "Наименование";
             this.dataGridTextBoxColumn1.MappingName = "name";
-            this.dataGridTextBoxColumn1.Width = 200;
+            this.dataGridTextBoxColumn1.Width = 160;
             // 
             // dataGridTextBoxColumn2
             // 
@@ -102,6 +102,7 @@ namespace Comfy3000
             this.dataGridTextBoxColumn2.FormatInfo = null;
             this.dataGridTextBoxColumn2.HeaderText = "КФ";
             this.dataGridTextBoxColumn2.MappingName = "count";
+            this.dataGridTextBoxColumn2.Width = 30;
             // 
             // dataGridTextBoxColumn3
             // 
@@ -109,6 +110,7 @@ namespace Comfy3000
             this.dataGridTextBoxColumn3.FormatInfo = null;
             this.dataGridTextBoxColumn3.HeaderText = "КУ";
             this.dataGridTextBoxColumn3.MappingName = "place";
+            this.dataGridTextBoxColumn3.Width = 30;
             // 
             // panel1
             // 
@@ -122,7 +124,7 @@ namespace Comfy3000
             this.panel1.Controls.Add(this.tb_count);
             this.panel1.Location = new System.Drawing.Point(326, 38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(327, 297);
+            this.panel1.Size = new System.Drawing.Size(240, 297);
             // 
             // l_count_doc
             // 
@@ -138,7 +140,7 @@ namespace Comfy3000
             this.l_name.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
             this.l_name.Location = new System.Drawing.Point(3, 63);
             this.l_name.Name = "l_name";
-            this.l_name.Size = new System.Drawing.Size(294, 164);
+            this.l_name.Size = new System.Drawing.Size(240, 164);
             // 
             // l_code
             // 
@@ -190,14 +192,14 @@ namespace Comfy3000
             this.panelWait.Controls.Add(this.label2);
             this.panelWait.Location = new System.Drawing.Point(659, 38);
             this.panelWait.Name = "panelWait";
-            this.panelWait.Size = new System.Drawing.Size(327, 297);
+            this.panelWait.Size = new System.Drawing.Size(240, 297);
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular);
             this.label2.Location = new System.Drawing.Point(3, 111);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(321, 78);
+            this.label2.Size = new System.Drawing.Size(240, 78);
             this.label2.Text = "Обработка...";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -211,7 +213,7 @@ namespace Comfy3000
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(3, 352);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(327, 297);
+            this.panel2.Size = new System.Drawing.Size(240, 297);
             // 
             // lCode
             // 
@@ -219,7 +221,7 @@ namespace Comfy3000
             this.lCode.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular);
             this.lCode.Location = new System.Drawing.Point(16, 196);
             this.lCode.Name = "lCode";
-            this.lCode.Size = new System.Drawing.Size(294, 32);
+            this.lCode.Size = new System.Drawing.Size(240, 32);
             // 
             // label10
             // 
@@ -236,7 +238,7 @@ namespace Comfy3000
             this.lName.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular);
             this.lName.Location = new System.Drawing.Point(16, 39);
             this.lName.Name = "lName";
-            this.lName.Size = new System.Drawing.Size(294, 127);
+            this.lName.Size = new System.Drawing.Size(240, 127);
             // 
             // label7
             // 
@@ -253,7 +255,7 @@ namespace Comfy3000
             this.lPlace.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular);
             this.lPlace.Location = new System.Drawing.Point(16, 258);
             this.lPlace.Name = "lPlace";
-            this.lPlace.Size = new System.Drawing.Size(294, 32);
+            this.lPlace.Size = new System.Drawing.Size(240, 32);
             // 
             // label3
             // 
@@ -261,7 +263,7 @@ namespace Comfy3000
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label3.Location = new System.Drawing.Point(3, 228);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(285, 30);
+            this.label3.Size = new System.Drawing.Size(240, 30);
             this.label3.Text = "Место хранения/Адрес";
             // 
             // label8
@@ -270,7 +272,7 @@ namespace Comfy3000
             this.label8.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular);
             this.label8.Location = new System.Drawing.Point(16, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(294, 32);
+            this.label8.Size = new System.Drawing.Size(240, 32);
             // 
             // f_goods
             // 
